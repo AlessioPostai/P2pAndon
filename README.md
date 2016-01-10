@@ -1,3 +1,4 @@
 # P2pAndon
-An Andon device based on Android wifi direct.
-This is only a "skeleton" application.
+This is only a "skeleton" working version application.
+The concept is an "I need help!!!" call between phones/tablets based on Wifi Direct.
+This could come useful in a working site and would not need any telephone or wifi connection.
