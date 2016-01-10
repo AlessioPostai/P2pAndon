@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/atn_user_setting"
+        android:title="@string/user_setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/atn_direct_enable"
+        android:title="@string/enable_p2p_button"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/atn_direct_discover"
+        android:title="@string/discover_peers_button"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/atn_service"
+        android:title="@string/menu_service"
+        app:showAsAction="never"/>
+
+</menu>

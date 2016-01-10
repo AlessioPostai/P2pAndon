@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">P2pAndon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="send_msg_button">Pomoc</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">JA</string>
+    <string name="label_peers">PEERS</string>
+
+
+    <string name="menu_service">Service</string>
+    <string name="btn_alarm_on">Alarm ON</string>
+    <string name="btn_alarm_off">Alarm OFF</string>
+
+    <!-- Device with this name will behave as a group owner -->
+    <string name="group_owner_name">Owner</string>
+
+    <!-- Alert dialog call for help -->
+    <string name="dialog_help_title">P2pAndon</string>
+    <string name="dialog_help_message">potrebuje pomoc!!!</string>.
+    <string name="dialog_help_ok">Mam to.</string>
+    <string name="dialog_help">Pomoc!!!</string>
+
+    <!-- Service notification -->
+    <string name="notification_service_title">P2pAndon</string>
+    <string name="notification_service_text">Poslech aktivni</string>
+    <string name="notification_connected_title">P2pAndon</string>
+    <string name="notification_connected_text">Pripojeno</string>
+
+    <!-- Message notifications -->
+    <string name="notification_message_title">P2pAndon</string>
+    <string name="notification_message_text">Prosba o pomoc byla odeslana</string>
+
+    <!-- User setting -->
+    <string name="line_category_title">COMMUNICATION</string>
+    <string name="andon_category_title">P2pAndon</string>
+    <string name="set_my_name_title">Jmeno</string>
+    <string name="set_my_name_summary">Moje identifikacni jmeno</string>
+    <string name="group_number">Cislo</string>
+    <string name="group_number_summary">Moje cislo ve skupine</string>
+    <string name="user_setting">Nastaveni uzivatele</string>
+    <string name="user_name_default">Operator</string>
+
+</resources>

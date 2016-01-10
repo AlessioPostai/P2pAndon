@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="set_directory"
+        android:textSize="15sp"
+        android:title="@string/andon_category_title"
+        android:layout="@layout/setting_cathegory_layout">
+        <EditTextPreference
+            android:key="myName"
+            android:title="@string/set_my_name_title"
+            android:summary="@string/set_my_name_summary"
+            android:dialogMessage="@string/set_my_name_summary"
+            android:defaultValue="@string/user_name_default"
+            android:layout="@layout/setting_layout"/>
+        <ListPreference 
+            android:key="allow_delete_record"
+            android:title="@string/group_number"
+            android:summary="@string/group_number_summary"
+            android:defaultValue="enabled"
+            android:entryValues="@array/groupPositionNumber"
+            android:entries="@array/groupPositionName"
+            android:layout="@layout/setting_layout"/>
+    </PreferenceCategory>
+</PreferenceScreen>

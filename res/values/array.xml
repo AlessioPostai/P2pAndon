@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    
+    <string-array name="groupPositionName">
+        <item name="1">Majtel</item>
+        <item name="2">1</item>
+        <item name="3">2</item>
+        <item name="4">3</item>
+        <item name="5">4</item>
+        <item name="6">5</item>
+        <item name="7">6</item>
+        <item name="8">7</item>
+        <item name="9">8</item>
+        <item name="10">9</item>
+        <item name="11">10</item>
+        <item name="12">11</item>
+        <item name="13">12</item>
+        <item name="14">13</item>
+        <item name="15">14</item>
+        <item name="16">15</item>
+    </string-array>
+    <string-array name="groupPositionNumber">
+        <item name="1">0</item>
+        <item name="2">1</item>
+        <item name="3">2</item>
+        <item name="4">3</item>
+        <item name="5">4</item>
+        <item name="6">5</item>
+        <item name="7">6</item>
+        <item name="8">7</item>
+        <item name="9">8</item>
+        <item name="10">9</item>
+        <item name="11">10</item>
+        <item name="12">11</item>
+        <item name="13">12</item>
+        <item name="14">13</item>
+        <item name="15">14</item>
+        <item name="16">15</item>
+    </string-array>
+</resources>

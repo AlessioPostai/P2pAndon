@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <fragment
+            class="com.own.alessio.p2pandon.DeviceListFragment"
+            android:id="@+id/frag_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/phone_list_height"
+            tools:layout="@layout/device_list_fragment">
+            <!-- Preview: layout=@layout/row_devices -->
+        </fragment>
+        <fragment
+            class="com.own.alessio.p2pandon.ConnectionDetailFragment"
+            android:id="@+id/frag_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/connection_detail_fragment">
+            <!-- Preview: layout=@layout/device_detail -->
+        </fragment>
+        </LinearLayout>
+</ScrollView>
